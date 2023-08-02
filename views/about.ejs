@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      <%= typeof title != 'undefined'? title:"Cooking Blog-Made with Node.js" %>
+    </title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container bg-white shadow-lg py-4">
+      <div class="row mb-2 px-4">
+        <div class="col-lg-3 col-md-4 col-sm-12 py-2 border-bottom">
+          <a href="/" class=""
+            ><img src="/img/logo.svg" class="img-fluid py-1"" width="229"
+            height="68" alt="" /></a
+          >
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-12 py-2 border-bottom">
+          <ul class="nav flex justify-content-end py-1">
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold" href="/">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold" href="/about">ABOUT</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold" href="/contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mb-2 px-4">
+        <div class="col-12">
+          <h1 class="display-5 fw-bold text-center mt-4 fs-1">
+            Welcome to Cooking Blog
+          </h1>
+        </div>
+        <div class="col-12 mt-2">
+          <ul class="list-group list-group-flush p-3 fw-light fs-5">
+            <li class="list-group-item">
+              A delightful cooking blog for food enthusiasts and home cooks.
+            </li>
+            <li class="list-group-item">
+              Explore a wide range of delicious recipes from various cuisines.
+            </li>
+            <li class="list-group-item">
+              Learn step-by-step cooking instructions with easy-to-follow
+              recipes.
+            </li>
+
+            <li class="list-group-item border-bottom">
+              Share your own cooking experiences and recipes with the blogging
+              community.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mb-2 mt-5 px-4">
+        <div class="col-12 px-2 py-2">
+          <h2 class="display-6 fs-4 fw-normal">Created By</h2>
+        </div>
+        <div class="col-12 px-2 py-2">
+          <h2 class="display-5 fs-2 fw-bold">Siddhant Kankaria</h2>
+        </div>
+        <div class="col-12 px-2 py-2">
+          <ul class="nav col-md-4 list-unstyled d-flex">
+            <li class="">
+              <a
+                class="text-body-secondary"
+                target="_blank"
+                href="https://www.linkedin.com/in/siddhant-kankaria-9982691aa/"
+                ><img src="/social media/linkedin.svg" height="20" alt=""
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                target="_blank"
+                href="https://github.com/siddhantkankaria123"
+                ><img src="/social media/github.svg" height="20" alt=""
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                target="_blank"
+                href="mailto:siddhantkankaria2001@gmail.com"
+                ><img src="/social media/envelope.svg" height="20" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
